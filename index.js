@@ -17,14 +17,14 @@ var image2=document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImgSource2);
 
 if(randomNumber1>randomNumber2){
-  document.querySelector("h1").innerHTML = "🚩Player 1 wins";
+  document.querySelector("h1").innerHTML = "🚩P1 wins";
   document.querySelector(".player2").style.color="red";
   document.querySelector(".player1").textContent="🚩Player 1";
   document.querySelector(".player1").style.color="#4CACBC";
   document.querySelector("button").textContent="Click Me To Play Again";
 }
 else if(randomNumber2>randomNumber1){
-  document.querySelector("h1").innerHTML = "🚩Player 2 wins";
+  document.querySelector("h1").innerHTML = "🚩P2 wins";
   document.querySelector(".player1").style.color="red";
   document.querySelector(".player2").textContent="🚩Player 2";
   document.querySelector(".player2").style.color="#4CACBC";
